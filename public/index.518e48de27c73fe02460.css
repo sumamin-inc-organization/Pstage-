@@ -20,6 +20,14 @@
     top: -9.9vw;
 }
 
+.kv_button {
+    position: absolute;
+    left: 34vw;
+    top: 110.9vw;
+    width: 56.92vw;
+    height: 6.41vw;
+}
+
 .back_deco--01 {
     position: absolute;
     width: 23.5vw;
@@ -60,6 +68,10 @@
     display: flex;
     flex-direction: row;
     /* gap: min(3vw, 74px); */
+    width: 100%;
+}
+
+.kv_all {
     width: 100%;
 }
 
@@ -589,12 +601,12 @@
     .back_deco--02 {
         width: 620px;
         height: 620px;
-        top: 497px;
+        top: 147.4vw;
         left: -91vw;
     }
 
     .kv_wrapper {
-        margin: 78px 5.6vw;
+        margin: 0px 5.6vw;
     }
 
     .kv_upper {
@@ -748,7 +760,7 @@
         flex-direction: column;
         width: 100%;
         gap: 23px;
-        margin-top: 178px;
+        margin-top: 60px;
     }
 
     .kv_middle_item {
@@ -820,6 +832,7 @@
     .kv_bottom_content {
         width: 100%;
         justify-content: space-between;
+        margin-bottom: 30px;
     }
 
     .kv_bottom_item {
@@ -1034,7 +1047,7 @@
 
 .graph_wrapper {
     width: 100%;
-    margin-top: 34px;
+    margin-top: 16px;
 }
 
 .graph_wrapper img {
@@ -1290,14 +1303,14 @@
 /* sp */
 @media (max-width: 767px) {
     #feature {
-        padding-bottom: 48px;
+        padding-bottom: 34px;
         margin-top: -60px;
         padding-top: 60px;
     }
 
     .feature_grid {
         grid-template-columns: 1fr 90vw 1fr;
-        margin-bottom: 26px;
+        margin-bottom: 20px;
     }
 
     .feature_content {
@@ -1414,6 +1427,7 @@
         font-size: min(3.9vw, 15.5px);
         line-height: 32px;
         letter-spacing: 0.01rem;
+        margin-top: 15px;
     }
 
     .merit_caption {
@@ -1440,6 +1454,7 @@
         font-size: min(3.9vw, 15.5px);
         line-height: 32px;
         letter-spacing: 0.01rem;
+        margin-top: 16px;
     }
 }
 
@@ -1547,8 +1562,8 @@
 }
 
 .decision_bottom_text {
-    margin-top: 41px;
-    margin-bottom: 36px;
+    margin-top: 26px;
+    margin-bottom: 18px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -1702,7 +1717,7 @@
     .decision_content {
         display: grid;
         grid-template-columns: 1fr 89.7vw 1fr;
-        padding-top: 50px;
+        padding-top: 25px;
     }
     
     .decision_upper_text {
@@ -1748,7 +1763,7 @@
     .decision_bottom_text {
         font-size: 15px;
         letter-spacing: 0.01rem;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .cta_text {
@@ -1913,7 +1928,7 @@
 }
 
 .support_bottom {
-    margin: 30px 0;
+    padding: 30px 0;
 }
 
 .support_bottom p {
@@ -2113,7 +2128,7 @@
         font-weight: bold;
         line-height: 32px;
         letter-spacing: 0.02rem;
-        margin-top: 50px;
+        margin-top: 25px;
     }
     
     .flow_upper_title {
@@ -2124,7 +2139,7 @@
         line-height: 28px;
         letter-spacing: 0.04rem;
         text-align: center;
-        margin-top: 52px;
+        margin-top: 26px;
     }
     
     .flow_upper_title::before, .flow_upper_title::after {
@@ -2152,7 +2167,7 @@
     
     .flow_figure {
         margin-top: 20px;
-        margin-bottom: 32px;
+        margin-bottom: 40px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -2206,7 +2221,7 @@
     
     
     .supprt_upper {
-        margin-top: -90px;
+        margin-top: -116px;
         text-align: center;
     }
     
@@ -2272,7 +2287,10 @@
     }
 
     .support_bottom {
-        margin: 15px 0;
+        padding: 15px 0;
+        position: relative;
+        z-index: 100;
+        background-color: #fff;
     }
 
     .support_bottom p {
@@ -2285,7 +2303,7 @@
     }
 
     .support_padding {
-        height: 60px;
+        height: 30px;
         background-color: var(--light-green);
         position: relative;
         z-index: 10;
@@ -2404,7 +2422,8 @@
   \*********************************************************************/
 #price {
     font-weight: bold;
-    padding-top: 86px;
+    padding-top: 93px;
+    margin-top: -50px;
 }
 
 .price_bg {
@@ -3148,7 +3167,7 @@ a.cta_btn.red_btn img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
     padding-bottom: 167px;
     /* background-color: var(--light-green); */
 }
@@ -3192,8 +3211,8 @@ a.cta_btn.red_btn img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 47px;
-        padding-bottom: 51px;
+        margin-top: 23px;
+        padding-bottom: 26px;
     }
     
     .video_wrapper video {
@@ -3205,7 +3224,7 @@ a.cta_btn.red_btn img {
     }
     
     .video_headline {
-        margin-top: 50px;
+        margin-top: 0px;
     }
     
     .video_middle {
@@ -3229,7 +3248,8 @@ a.cta_btn.red_btn img {
   \*********************************************************************/
 #voice {
     font-weight: bold;
-    padding-top: 80px;
+    padding-top: 70px;
+    margin-top: -20px;
 }
 
 .voice_grid {
@@ -3674,9 +3694,9 @@ a.faq_btn:hover {
 
 @media (max-width: 767px) {
     .faq_wrapper {
-        padding-top: 111px;
+        padding-top: 96px;
         margin-top: -60px;
-        padding-bottom: 130px;
+        padding-bottom: 60px;
     }
     
     .faq_headline {
@@ -3900,17 +3920,23 @@ a.faq_btn:hover {
 
 @media (max-width: 767px) {
     .company_grid {
-        padding-bottom: 41px;
+        padding-bottom: 24px;
     }
 
     .company_grid::before {
+        position: absolute;
+        content: "";
+        width: 180px;
+        height: 90px;
+        background-color: #FFFDD1;
+        border-radius: 9999px;
         top: -76px;
-        left: 48px;
-        right: auto;
+        right: 155px;
+        border-radius: 50% / 100% 100% 0 0;
     }
     
     .company_head_wrapper {
-        padding-top: 64px;
+        padding-top: 32px;
     }
     
     .company_headline {
@@ -3958,7 +3984,7 @@ a.faq_btn:hover {
     }
     
     .company_note {
-        margin-top: 38px;
+        margin-top: 20px;
         font-size: 13px;
         line-height: 27px;
         font-weight: 500;

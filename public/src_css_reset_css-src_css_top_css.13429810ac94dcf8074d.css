@@ -159,6 +159,10 @@ main {
     .sp {
         display: block;
     }
+
+    main {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 1500px) {
@@ -183,7 +187,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     /* padding: 5px; */
-    padding: 0 20px;
+    padding: 0 20px 0 0;
     align-items: center;
     height: 60px;
 }
@@ -566,7 +570,7 @@ a.cta_btn::before {
     font-size: 24px;
     letter-spacing: 0.11rem;
     font-weight: bold;
-    background: var(--orange);
+    background: var(--red);
     color: #fff;
     z-index: 100;
 
@@ -673,6 +677,12 @@ footer {
 @media (max-width: 767px) {
     .header_logo {
         width: 100px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .header_left {
+        height: 60px;
     }
 
     .cta_text {
@@ -777,13 +787,14 @@ footer {
     .footer_grid {
         grid-template-columns: 1fr min(90vw, 350px) 1fr;
         border-radius: 60px 60px 0 0;
+        padding-bottom: 60px;
     }
 
     .footer_upper {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
     
     .footer_content_left {
@@ -827,7 +838,7 @@ footer {
 
     .top_back_wrapper {
         justify-content: center;
-        margin-top: 42px;
+        margin-top: 20px;
     }
     
 }

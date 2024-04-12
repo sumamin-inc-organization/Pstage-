@@ -305,6 +305,16 @@ document.addEventListener("DOMContentLoaded", function() {
         support_content4
         .from(".support_content_img04", { scale: 0, opacity: 0, duration: 0.5, ease: "Power4.easeOut"}, "+=0.4");
 
+        let support_bottom = gsap__WEBPACK_IMPORTED_MODULE_11__.gsap.timeline({
+            scrollTrigger: {
+                trigger: ".support_bottom",
+                start: "-=500px",
+                scrub: false,
+            },
+        });
+        support_bottom
+        .from(".support_bottom", { scale: 0, opacity: 0, duration: 0.5, ease: "Power4.easeOut"}, "+=0.4");
+
         // let  flowSupport = gsap__WEBPACK_IMPORTED_MODULE_11__.gsap.timeline({
         //     scrollTrigger: {
         //         trigger: ".flow_support",
