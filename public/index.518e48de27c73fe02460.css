@@ -601,7 +601,7 @@
     .back_deco--02 {
         width: 620px;
         height: 620px;
-        top: 147.4vw;
+        top: 142vw;
         left: -91vw;
     }
 
@@ -760,7 +760,7 @@
         flex-direction: column;
         width: 100%;
         gap: 23px;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .kv_middle_item {
