@@ -571,6 +571,7 @@ a.cta_btn::before {
     letter-spacing: 0.11rem;
     font-weight: bold;
     background: var(--red);
+    background: linear-gradient(180deg,#FDCCC8 2% ,#E61400 66%);
     color: #fff;
     z-index: 100;
 

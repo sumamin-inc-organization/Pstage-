@@ -22,8 +22,8 @@
 
 .kv_button {
     position: absolute;
-    left: 34vw;
-    top: 110.9vw;
+    left: 32.6vw;
+    top: 114.9vw;
     width: 56.92vw;
     height: 6.41vw;
 }
@@ -73,6 +73,7 @@
 
 .kv_all {
     width: 100%;
+    margin-top: 14px;
 }
 
 .kv_upper_left {
